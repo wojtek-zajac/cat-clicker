@@ -4,12 +4,36 @@ body {
 
 .header {
     text-align: center;
+    margin: 2rem 2rem 2.5rem;
 }
 
-.cat {
+.catsContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+cat1Container,
+cat2Container {
+    width: auto;
+}
+
+.cat1,
+.cat2 {
     display: block;
     margin: auto;
-    width: 70%;
+    width: 95%;
+}
+
+.cat1Name,
+.cat2Name {
+    font-size: 1rem;
+    text-align: center;
 }
 
 .clicks {

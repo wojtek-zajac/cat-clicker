@@ -13,19 +13,27 @@
 </head>
 <body>
     <h1 class="header">Click on the cats!</h1>
-    <div class="catsContainer">
-        <div class="cat1Container">
-            <h2 class="cat1Name"></h2>
-            <img src="img/cat1.jpg" alt="grumpy cat" class="cat1">
-        </div>
-        <div class="class2Container">
-            <h2 class="cat2Name"></h2>
-            <img src="img/cat2.jpg" alt="funney cat" class="cat2">
-        </div>
+    <div class="container">
+        <main class="mainContainer">
+            <header>
+                <h3 class="catName"></h3>
+            </header>
+            <div class="catImage">
+                <!-- Cat image loads here with alt="cat" class="cat" -->
+            </div>
+            <footer>
+                <p class="clicks">
+                    <span class="number"></span>
+                </p>
+            </footer>
+        </main>
+        <aside class="listContainer">
+            <h2 class="listHeader">Select a cat</h2>
+                <div class="list">
+                    <!-- Cats load here -->
+                </div>
+        </aside>
     </div>
-    <p class="clicks">
-        <span class="number">0</span> Clicks
-    </p>
     <script src="js/app.js"></script>
 </body>
 </html>

@@ -30,14 +30,45 @@ cat2Container {
     width: 95%;
 }
 
-.cat1Name,
-.cat2Name {
-    font-size: 1rem;
+.clicks {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* ///////////////// */
+
+.container {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: center;
+    height: 600px;
+}
+
+.mainContainer {
+    /* background: rgb(132, 216, 132); */
+    width: 50%;
+}
+
+.listContainer {
+    /* background: rgb(27, 138, 27); */
+    width: 20%;
+    padding: 10px 0 10px 10px;
+}
+
+.listHeader {
+    font-size: 1.5rem;
+}
+
+.catName {
+    font-size: 1.5rem;
     text-align: center;
 }
 
-.clicks {
-    text-align: center;
-    font-size: 1.3rem;
-    font-weight: bold;
+.cat {
+    width: 90%;
+}
+
+.list {
+    line-height: 1.8;
 }
